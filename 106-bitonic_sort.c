@@ -81,7 +81,7 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
  * array of integers in ascending order.
  * @array: A collection of integer values.
  * @size: The number of elements in the array.
- * 
+ *
  * Description: Displays the array after each exchange. It's specifically
  * designed for sizes that are powers of 2 (2^k) where k is a non-negative
  * integer.
