@@ -10,7 +10,7 @@ void sort_deck(deck_node_t **deck);
  * _strcmp - to compare strings
  * @s1: the first string to be compared
  * @s2: the second string to be compared
- * 
+ *
  * Return: if s1 > s2 +ve byte difference,
  * if s1 == s2 0,
  * -ve byte if s1 < s2
@@ -32,7 +32,7 @@ int _strcmp(const char *s1, const char *s2)
  * get_value - Utilizes the Hoare partition scheme. Displays the array after
  * swapping two elements.
  * @card: A pointer to a card in a deck represented by a deck_node_t.
- * 
+ *
  * Return: The card numerical value
 */
 char get_value(deck_node_t *card)
