@@ -19,7 +19,7 @@ void swap_ints(int *a, int *b)
  * shell sort algorithm.
  * @array: array of integers to sort.
  * @size: size of the array.
- * 
+ *
  * Description: Implements the Knuth interval sequence for sorting.
 */
 void shell_sort(int *array, size_t size)
