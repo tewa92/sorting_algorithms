@@ -20,7 +20,7 @@ void swap_ints(int *a, int *b)
  * employing the selection sort algorithm.
  * @array: array of integers to sort.
  * @size: size of the array.
- * 
+ *
  * Description: After each swap operation, the function prints the
  * updated array.
 */
