@@ -26,12 +26,12 @@ void swap_ints(int *a, int *b)
  * @size: Size of the array.
  * @left: Indicates the initial index of the subset to arrange.
  * @right: Denotes the final index of the subset to arrange.
- * 
+ *
  * Return: Final partition index.
- * 
+ *
  * Description: *Employs the final element of the partition as the pivot.
  * Shows the array following every exchange of two elements.
- * 
+ *
 */
 int hoare_partition(int *array, size_t size, int left, int right)
 {
@@ -63,7 +63,7 @@ int hoare_partition(int *array, size_t size, int left, int right)
  * @size: Size of the array.
  * @left: Indicates the initial index of the subset to arrange.
  * @right: Denotes the final index of the subset to arrange.
- * 
+ *
  * Description: Applies the Hoare partition scheme.
  */
 void hoare_sort(int *array, size_t size, int left, int right)
@@ -83,7 +83,7 @@ void hoare_sort(int *array, size_t size, int left, int right)
  * utilizing the quicksort algorithm.
  * @array: Array of integers to sort.
  * @size: Size of the array.
- * 
+ *
  * Description: Utilizes the Hoare partition scheme. Displays the array
  * after swapping two elements.
 */
