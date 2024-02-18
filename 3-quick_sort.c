@@ -26,7 +26,7 @@ void swap_ints(int *a, int *b)
  * @size: Size of the array.
  * @left: Indicates the initial index of the subset to arrange.
  * @right: Denotes the final index of the subset to arrange.
- * 
+ *
  * Return: Final  index.
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
@@ -57,12 +57,12 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort: Implements the quicksort algorithm recursively.
+ * lomuto_sort - Implements the quicksort algorithm recursively.
  * @array: Array of integers to sort.
  * @size: Size of the array.
  * @left: Indicates the initial index of the subset to arrange.
  * @right: Denotes the final index of the subset to arrange.
- * 
+ *
  * Description: Applies Lomuto partition scheme.
  */
 void lomuto_sort(int *array, size_t size, int left, int right)
