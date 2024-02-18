@@ -52,8 +52,8 @@ void max_heapify(int *array, size_t size, size_t base, size_t root)
  * the heap sort method.
  * @array: Array of the string.
  * @size: Size of thr array.
- * 
- * Description: *Applies the sift-down heap sort algorithm to organize the
+ *
+ * Description: Applies the sift-down heap sort algorithm to organize the
  * elements. Displays the array after each exchange.
 */
 void heap_sort(int *array, size_t size)
